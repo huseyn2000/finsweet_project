@@ -536,23 +536,11 @@
   gap: 48px;
   padding-bottom: 96px;
 }
-.fifth_page .down_part .up,
 .fifth_page .down_part .down {
   display: flex;
   gap: 48px;
 }
-.fifth_page .down_part .up .f_f,
-.fifth_page .down_part .up .f_s,
-.fifth_page .down_part .up .f_t,
-.fifth_page .down_part .up .s_f,
-.fifth_page .down_part .up .s_s,
-.fifth_page .down_part .up .s_t,
-.fifth_page .down_part .down .f_f,
-.fifth_page .down_part .down .f_s,
-.fifth_page .down_part .down .f_t,
-.fifth_page .down_part .down .s_f,
-.fifth_page .down_part .down .s_s,
-.fifth_page .down_part .down .s_t {
+.fifth_page .down_part .down .f_f {
   display: flex;
   gap: 16px;
   padding-left: 32px;
@@ -560,18 +548,7 @@
   border: 1px solid rgba(35, 37, 54, 0.17);
   width: 395px;
 }
-.fifth_page .down_part .up .f_f .numb,
-.fifth_page .down_part .up .f_s .numb,
-.fifth_page .down_part .up .f_t .numb,
-.fifth_page .down_part .up .s_f .numb,
-.fifth_page .down_part .up .s_s .numb,
-.fifth_page .down_part .up .s_t .numb,
-.fifth_page .down_part .down .f_f .numb,
-.fifth_page .down_part .down .f_s .numb,
-.fifth_page .down_part .down .f_t .numb,
-.fifth_page .down_part .down .s_f .numb,
-.fifth_page .down_part .down .s_s .numb,
-.fifth_page .down_part .down .s_t .numb {
+.fifth_page .down_part .down .f_f .numb {
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -580,18 +557,7 @@
   bottom: 12px;
   position: relative;
 }
-.fifth_page .down_part .up .f_f .text1 h6,
-.fifth_page .down_part .up .f_s .text1 h6,
-.fifth_page .down_part .up .f_t .text1 h6,
-.fifth_page .down_part .up .s_f .text1 h6,
-.fifth_page .down_part .up .s_s .text1 h6,
-.fifth_page .down_part .up .s_t .text1 h6,
-.fifth_page .down_part .down .f_f .text1 h6,
-.fifth_page .down_part .down .f_s .text1 h6,
-.fifth_page .down_part .down .f_t .text1 h6,
-.fifth_page .down_part .down .s_f .text1 h6,
-.fifth_page .down_part .down .s_s .text1 h6,
-.fifth_page .down_part .down .s_t .text1 h6 {
+.fifth_page .down_part .down .f_f .text1 h6 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -600,18 +566,7 @@
   color: #000000;
   padding-bottom: 8px;
 }
-.fifth_page .down_part .up .f_f .text1 p,
-.fifth_page .down_part .up .f_s .text1 p,
-.fifth_page .down_part .up .f_t .text1 p,
-.fifth_page .down_part .up .s_f .text1 p,
-.fifth_page .down_part .up .s_s .text1 p,
-.fifth_page .down_part .up .s_t .text1 p,
-.fifth_page .down_part .down .f_f .text1 p,
-.fifth_page .down_part .down .f_s .text1 p,
-.fifth_page .down_part .down .f_t .text1 p,
-.fifth_page .down_part .down .s_f .text1 p,
-.fifth_page .down_part .down .s_s .text1 p,
-.fifth_page .down_part .down .s_t .text1 p {
+.fifth_page .down_part .down .f_f .text1 p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -620,18 +575,7 @@
   color: #5d5f6d;
   padding-bottom: 28px;
 }
-.fifth_page .down_part .up .f_f .text1 img,
-.fifth_page .down_part .up .f_s .text1 img,
-.fifth_page .down_part .up .f_t .text1 img,
-.fifth_page .down_part .up .s_f .text1 img,
-.fifth_page .down_part .up .s_s .text1 img,
-.fifth_page .down_part .up .s_t .text1 img,
-.fifth_page .down_part .down .f_f .text1 img,
-.fifth_page .down_part .down .f_s .text1 img,
-.fifth_page .down_part .down .f_t .text1 img,
-.fifth_page .down_part .down .s_f .text1 img,
-.fifth_page .down_part .down .s_s .text1 img,
-.fifth_page .down_part .down .s_t .text1 img {
+.fifth_page .down_part .down .f_f .text1 img {
   position: relative;
   top: 15px;
   right: 92px;

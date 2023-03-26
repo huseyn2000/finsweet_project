@@ -595,17 +595,12 @@
     gap: 48px;
     padding-bottom: 96px;
 
-    .up,
+   
     .down {
       display: flex;
       gap: 48px;
 
-      .f_f,
-      .f_s,
-      .f_t,
-      .s_f,
-      .s_s,
-      .s_t {
+      .f_f {
         display: flex;
 
         gap: 16px;
