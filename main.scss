@@ -595,7 +595,6 @@
     gap: 48px;
     padding-bottom: 96px;
 
-   
     .down {
       display: flex;
       gap: 48px;
@@ -665,12 +664,12 @@
     margin-right: auto;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 120px;
+    padding-bottom: 80px;
 
     .left {
       display: flex;
       flex-direction: column;
-      gap: 16px;
+
       .blue {
         width: 16px;
         height: 16px;
@@ -678,6 +677,7 @@
         transform: rotate(180deg);
         position: relative;
         top: 12px;
+        margin-bottom: 16px;
       }
 
       h2 {
@@ -685,6 +685,7 @@
         font-size: 48px;
         line-height: 58px;
         color: #232536;
+        margin-bottom: 16px;
       }
 
       p {
@@ -692,6 +693,7 @@
         font-size: 18px;
         line-height: 28px;
         color: #232536;
+        margin-bottom: 16px;
       }
 
       .snd_p {
@@ -700,11 +702,13 @@
         line-height: 24px;
         color: #232536;
         opacity: 0.87;
+        margin-bottom: 24px;
       }
 
       .photo_cont {
         display: flex;
         gap: 12px;
+        margin-bottom: 14px;
       }
 
       .last_p {
@@ -716,17 +720,25 @@
     }
 
     .right {
-      background: #ffffff;
-      width: 607px;
-
+      display: flex;
+      flex-direction: column;
+      .quote {
+        display: flex;
+        justify-content: right;
+      }
+      .circle {
+        padding-top: 25px;
+        padding-left: 50%;
+      }
       .content {
+        background: #ffffff;
+        width: 607px;
         padding-left: 40px;
-        padding-top: 48px;
-
         padding-right: 69px;
         display: flex;
         flex-direction: column;
-        gap: 24px;
+        gap: 30px;
+        padding-top: 48px;
 
         .h4_class {
           font-weight: 600;
@@ -738,7 +750,7 @@
 
         .footer {
           display: flex;
-          gap: 253px;
+          justify-content: space-between;
 
           .row {
             gap: 16px;
@@ -762,20 +774,6 @@
           }
         }
       }
-    }
-
-    .circle {
-      position: relative;
-      top: 317px;
-      right: 413px;
-    }
-    .side_column {
-      position: relative;
-      right: 443px;
-    }
-    .side_column {
-      position: relative;
-      right: 686px;
     }
   }
 }

@@ -593,12 +593,11 @@
   margin-right: auto;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 120px;
+  padding-bottom: 80px;
 }
 .sixth_page .content .left {
   display: flex;
   flex-direction: column;
-  gap: 16px;
 }
 .sixth_page .content .left .blue {
   width: 16px;
@@ -607,18 +606,21 @@
   transform: rotate(180deg);
   position: relative;
   top: 12px;
+  margin-bottom: 16px;
 }
 .sixth_page .content .left h2 {
   font-weight: 600;
   font-size: 48px;
   line-height: 58px;
   color: #232536;
+  margin-bottom: 16px;
 }
 .sixth_page .content .left p {
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
   color: #232536;
+  margin-bottom: 16px;
 }
 .sixth_page .content .left .snd_p {
   font-weight: 400;
@@ -626,10 +628,12 @@
   line-height: 24px;
   color: #232536;
   opacity: 0.87;
+  margin-bottom: 24px;
 }
 .sixth_page .content .left .photo_cont {
   display: flex;
   gap: 12px;
+  margin-bottom: 14px;
 }
 .sixth_page .content .left .last_p {
   font-weight: 500;
@@ -638,16 +642,26 @@
   color: #000000;
 }
 .sixth_page .content .right {
-  background: #ffffff;
-  width: 607px;
+  display: flex;
+  flex-direction: column;
+}
+.sixth_page .content .right .quote {
+  display: flex;
+  justify-content: right;
+}
+.sixth_page .content .right .circle {
+  padding-top: 25px;
+  padding-left: 50%;
 }
 .sixth_page .content .right .content {
+  background: #ffffff;
+  width: 607px;
   padding-left: 40px;
-  padding-top: 48px;
   padding-right: 69px;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 30px;
+  padding-top: 48px;
 }
 .sixth_page .content .right .content .h4_class {
   font-weight: 600;
@@ -658,7 +672,7 @@
 }
 .sixth_page .content .right .content .footer {
   display: flex;
-  gap: 253px;
+  justify-content: space-between;
 }
 .sixth_page .content .right .content .footer .row {
   gap: 16px;
@@ -677,19 +691,6 @@
   line-height: 20px;
   color: #232536;
   opacity: 0.6;
-}
-.sixth_page .content .circle {
-  position: relative;
-  top: 317px;
-  right: 413px;
-}
-.sixth_page .content .side_column {
-  position: relative;
-  right: 443px;
-}
-.sixth_page .content .side_column {
-  position: relative;
-  right: 686px;
 }
 
 .seventh_page {
